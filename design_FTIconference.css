@@ -1,0 +1,210 @@
+body {
+ text-align:center;
+ font-family: Verdana, Arial, Helvetica, Sans Serif;
+ font-size: 12px;
+ color: black;
+ background-repeat: no-repeat;
+}
+
+#header {
+ width:900px;
+ margin-left:auto;
+ margin-right:auto;
+ text-align:left;
+ background-color: white;
+}
+
+#menu {
+ width:200px;
+ float:left;
+ font-size: 14px;
+ line-height: 150%;
+}
+
+#main {
+ width:600px;
+ float:left;
+ font-size: 14px;
+}
+
+#footer {
+ width:100%;
+ text-align:center;
+ clear:left; 
+ font-size: 12px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 0px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.proc{
+	font-style: italic;
+	color: grey;
+	font-weight: bold;
+	font-size: 0.9em;
+	text-decoration: underline;
+}
+
+.proc:hover 
+{
+	color: LightCoral;
+}
+
+
+
+a	{text-decoration:none;
+%	font : 14px Verdana, Arial, Helvetica, Sans Serif;
+	}
+a:hover{text-decoration:underline;}
+h1	{
+	color: #2A6AFF;
+	font-size: 24px;
+	}
+h2	{
+	color: #2A6AFF;
+	font-size: 20px;
+	font-weight: bold;
+	}
+h3	{
+	color: #2A6AFF;
+	font-size: 16px;
+	font-weight: bold;
+	}
+h4	{
+	font-size : 14px;
+	}
+h5	{
+	font-size : 12px;
+	font-weight: normal;
+	}
+h6	{
+	font : 14px Verdana, Arial, Helvetica, Sans Serif;
+	text-align:center;
+	font-weight: bold;
+	color: #FFFFFF;
+    background-color: #2A6AFF;
+	}
+li	{
+	font-size : 14px;
+	}
+<!--
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+
+table tr {
+
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+
+table th,
+table td {
+  padding: .625em;
+  text-align: center;
+}
+
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+  
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  
+  table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+-->
+
+.tableone {
+border-collapse: collapse;
+font-family: Arial;
+font-size: 11pt;
+}
+
+.tableone td {
+text-align: left;
+padding: 7px;
+width: 150px;
+}
+
+.tableone tr:nth-child(odd) {background-color: #D9E1F2;}
+.tableone tr:nth-child(even) {background-color: #FFFFFF;}
+
+.tableone th {
+text-align: center;
+padding: 7px;
+font-weight: bold;
+color: #FFFFFF;
+background-color: #4472C4;
+}
+
+.responsive {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
