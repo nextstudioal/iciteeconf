@@ -208,3 +208,14 @@ background-color: #4472C4;
   max-width: 150px;
   height: auto;
 }
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
